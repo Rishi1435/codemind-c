@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    scanf("%d%d%d",&a,&b,&c);
+    if(a==b && a==c && b==c)
+    {
+        printf("Equilateral triangle");
+    }
+    else if(a==b)
+    {
+        printf("Isosceles triangle");
+    }
+    else if(a==c)
+    {
+        printf("Isosceles triangle");
+    }
+    else if(b==c)
+    {
+        printf("Isosceles triangle");
+    }
+    else
+    {
+        printf("Scalene triangle");
+    }
+}
